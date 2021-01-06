@@ -1,0 +1,125 @@
+body{
+  font-family: 'Assistant', sans-serif !important;
+}
+
+.media{
+    margin-top: 2px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    background: #acacac;
+	color: rgb(85, 79, 79);
+	text-align: center;	
+	box-shadow: rgba(163, 163, 163, 0.53) 17px 6px 19px -1px inset;
+   
+}
+
+
+
+
+
+.mr-3{
+    border-radius: 25px;
+    /* max-width:200px ;
+    max-height: 250px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: rgb(138, 135, 135);
+    }
+    .media
+    {
+        display: block;
+        
+    }
+
+    .media p {
+        font-size: 15px;
+    }
+    .partOne p{
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 2000px) {
+  
+    .partOne p{
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 1085) {
+  
+    .partOne p{
+        font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+  
+    .partOne p{
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+  
+    .partOne p{
+        font-size: 8px;
+    }
+  }
+
+
+ @media screen and (max-width: 600px) {
+   
+    body {
+      background-color: rgb(139, 136, 136);
+    }
+    .media
+    {
+        display: block;
+    }
+    .media p {
+        font-size: 12px;
+    }
+    
+  
+   
+  
+  }
+  @media screen and (max-width: 400px) {
+   
+    body {
+      background-color: rgb(139, 139, 139);
+    }
+    .media
+    {
+        display: block;
+       
+    }
+    .media img{
+        border-radius: 25px;
+        max-width:150px ;
+        max-height: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+  
+  }
+  
+
+
+p {
+    max-width: 80%;
+    color: #573939;
+    
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-shadow: 0px 0px 20px #A3A3A3;
+}

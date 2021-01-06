@@ -1,0 +1,31 @@
+.youtube_video{
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: table-row; height: 100px;
+}
+/* 
+.display_inline {
+  display: inline;  
+}
+*/
+.inline_block {
+   display: table-cell;
+   background: blue;
+} 
+
+.text_and_video {
+  width: 100%; display: table;
+}
+.inner_text_and_video{
+
+  display: table-row; height: 100px;
+}
+
+.left_text{ 
+  width: 50%; display: table-cell; background: green;
+}
+
+.rigth_text{
+  display: table-cell; background: blue;
+}
