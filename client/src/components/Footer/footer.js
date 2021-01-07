@@ -11,6 +11,7 @@ export default function Footer() {
             <footer class="footer">
                 <div class="footer-center col-md-4 col-sm-6">
                     <p class="fa fa-phone">
+                        <h1>nimrod</h1>
                        <p>  מען מכתבים     </p> <br/>
                        
                         <p>ת.ד. 5778, חדרה, 321000</p>
